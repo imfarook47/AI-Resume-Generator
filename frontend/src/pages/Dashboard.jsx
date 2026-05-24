@@ -270,7 +270,7 @@ Give clean markdown formatting.
 
         // SAVE DATABASE
         await fetch(
-          "http://localhost:8080/api/resume/save",
+          "https://ai-resume-generator-3.onrender.com/api/resume/save",
           {
             method: "POST",
 

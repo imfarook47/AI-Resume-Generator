@@ -33,7 +33,7 @@ function Login() {
       const response =
         await axios.post(
 
-          "http://localhost:8080/api/auth/login",
+          "https://ai-resume-generator-3.onrender.com/api/auth/login",
 
           {
             email: email,
